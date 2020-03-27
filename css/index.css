@@ -98,6 +98,13 @@ footer .ul-3 li{
     cursor: pointer;
 }
 @media (max-width:767px) {
+    nav .my-nav ul{
+        line-height: 45px;
+    }
+    nav .my-nav ul li{
+        font-size: 16px;
+    }
+
     header .one p{
         margin: auto;
     }
@@ -110,6 +117,10 @@ footer .ul-3 li{
     .sub input {
         width: 90%;
         margin-bottom: 15px;
+    }
+    .my-btn{
+        width: 90% !important;
+        margin-left: auto !important;
     }
     .tistis .two h2{
         font-size: 25px;
